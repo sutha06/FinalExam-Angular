@@ -1,0 +1,52 @@
+/* Container for the pet card */
+.pet-card {
+  background-color: #f0e7f4; /* Light purple background */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Header section with pet picture and name */
+.pet-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.pet-picture {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  border-radius: 50%;
+  margin-right: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Light shadow effect */
+}
+
+.pet-name {
+  margin: 0;
+  font-size: 24px; /* Larger font size for pet name */
+  color: #4b2e83; /* Dark purple color */
+}
+
+/* Details section for pet information */
+.pet-details {
+  padding-left: 20px;
+}
+
+.pet-info {
+  margin-bottom: 10px;
+}
+
+.info-label {
+  font-weight: bold;
+}
+
+.pet-value {
+  color: #6b519c; /* Medium purple color for pet values */
+}
+
+/* Styles for not found message */
+.not-found-message {
+  color: #ff0033; /* Red color for not found message */
+  font-weight: bold;
+}

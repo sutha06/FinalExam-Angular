@@ -22,7 +22,7 @@ export class PetDataService {
     pet.breed = petJson.breed;
 
     pet.petFirstName = petJson.owner.firstName;
-    pet.petLastName = petJson.owner.firstName;
+    pet.petLastName = petJson.owner.lastName;
 
     pet.picture = this.imageFolder + petJson.picture;
 
