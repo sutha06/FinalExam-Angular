@@ -8,12 +8,14 @@ import {HeaderComponent} from "./header/header.component";
 import {HttpClientModule} from "@angular/common/http";
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import {MatToolbar} from "@angular/material/toolbar";
+import {PetDetailsComponent} from "./pet-details/pet-details.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    PetDetailsComponent
   ],
   imports: [
     BrowserModule,
