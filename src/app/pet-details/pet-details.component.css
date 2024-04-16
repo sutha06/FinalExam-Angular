@@ -1,14 +1,14 @@
-/* Container for the pet card */
+
 .pet-card {
-  background-color: #f0e7f4; /* Light purple background */
+  background-color: #f0e7f4;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-bottom: 20px;
   width: 35em;
 }
 
-/* Header section with pet picture and name */
+
 .pet-card-header {
   display: flex;
   align-items: center;
@@ -16,20 +16,20 @@
 }
 
 .pet-picture {
-  width: 100px; /* Adjust size as needed */
-  height: 100px; /* Adjust size as needed */
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   margin-right: 20px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Light shadow effect */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
 .pet-name {
   margin: 0;
-  font-size: 24px; /* Larger font size for pet name */
-  color: #4b2e83; /* Dark purple color */
+  font-size: 24px;
+  color: #4b2e83;
 }
 
-/* Details section for pet information */
+
 .pet-details {
   padding-left: 20px;
 }
@@ -43,11 +43,11 @@
 }
 
 .pet-value {
-  color: #6b519c; /* Medium purple color for pet values */
+  color: #6b519c;
 }
 
-/* Styles for not found message */
+
 .not-found-message {
-  color: #ff0033; /* Red color for not found message */
+  color: #ff0033;
   font-weight: bold;
 }
